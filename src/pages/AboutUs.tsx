@@ -11,7 +11,7 @@ function AboutUs(){
         <>
         <section>
 
-            <div>
+            
                 <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, libero assumenda voluptatum iusto fugiat et provident dicta impedit, nostrum doloribus exercitationem nihil earum laboriosam. Quos eum expedita incidunt accusantium error?</h1>
                    
             <div>

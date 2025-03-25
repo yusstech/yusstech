@@ -8,6 +8,8 @@ import ProjectRescue from '../components/ProjectRescue';
 import Guarantee from '../components/Guarantee';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import AboutUs from '../components/AboutUs';
+import ContactSupport from '../components/ContactSupport';
 
 export default function Home() {
   return (
@@ -16,6 +18,10 @@ export default function Home() {
       
       <main className="flex-grow">
         <Hero />
+        
+        <div id="about">
+          <AboutUs />
+        </div>
         
         <div id="websites">
           <WebsiteDevelopment />
@@ -43,6 +49,10 @@ export default function Home() {
         
         <div id="contact">
           <Contact />
+        </div>
+
+        <div id="support">
+          <ContactSupport />
         </div>
       </main>
       
