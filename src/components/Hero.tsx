@@ -17,17 +17,20 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="hero-headline mb-6">
-              We Ship Products While You Focus On Growth
+              We are your product development partner from start to finish
+          
             </h1>
             <p className="hero-subheadline mb-8">
-              100% guaranteed completion for your website, app, or AI solution—or your money back.
+            100% guaranteed completion for your website, app, or AI solution—or your money back.
+        
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a className="cta-primary" href='https://calendly.com/yusstechh/30min'>
                 Schedule Your Strategy Call
               </a>
               <span className="text-sm font-medium text-accent">
-                We are your product development partner from start to finish
+
+              We  Ship your Products While You Focus On Growth
               </span>
             </div>
           </div>

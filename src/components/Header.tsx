@@ -19,7 +19,7 @@ export default function Header() {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="flex justify-between items-center">
           <Link href="/" className="font-bold text-2xl text-primary">
-            Yusstech
+            Buildoras
           </Link>
           
           <nav className="hidden md:block">
@@ -66,7 +66,7 @@ export default function Header() {
           <div className="p-4">
             <div className="flex justify-between items-center mb-8">
               <Link href="/" className="font-bold text-2xl text-primary">
-                Yusstech
+                Buildoras
               </Link>
               <button 
                 onClick={closeMenu}
