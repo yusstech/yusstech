@@ -2,8 +2,18 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <section className="section-container flex flex-col items-center justify-center py-20 text-center lg:text-left lg:items-start min-h-[90vh] lg:min-h-[80vh]">
-      <div className="container mx-auto max-w-7xl px-4">
+    <section className="section-container flex flex-col items-center justify-center py-20 text-center lg:text-left lg:items-start min-h-[90vh] lg:min-h-[80vh] relative overflow-hidden">
+      {/* Decorative background elements for mobile */}
+      <div className="absolute inset-0 lg:hidden">
+        <div className="absolute -top-20 -right-20 w-40 h-40 rounded-full bg-primary/10"></div>
+        <div className="absolute -bottom-20 -left-20 w-40 h-40 rounded-full bg-secondary/10"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 rounded-full bg-accent/10"></div>
+        <div className="absolute top-1/4 right-0 w-32 h-32 rounded-full bg-primary/5"></div>
+        <div className="absolute bottom-1/4 left-0 w-32 h-32 rounded-full bg-secondary/5"></div>
+      </div>
+
+      {/* Content */}
+      <div className="container mx-auto max-w-7xl px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="hero-headline mb-6">
@@ -13,10 +23,9 @@ export default function Hero() {
               100% guaranteed completion for your website, app, or AI solution—or your money back.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-            <a className="cta-primary" href='https://calendly.com/yusstechh/30min'>
-            
-                Schedule Your Strategy Call</a>
-              
+              <a className="cta-primary" href='https://calendly.com/yusstechh/30min'>
+                Schedule Your Strategy Call
+              </a>
               <span className="text-sm font-medium text-accent">
                 We are your product development partner from start to finish
               </span>
