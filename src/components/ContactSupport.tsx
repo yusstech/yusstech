@@ -31,7 +31,7 @@ export default function ContactSupport() {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-16">
           <h2 className="section-headline">Contact Support</h2>
-          <p className="section-subheadline">We're here to help you succeed</p>
+          <p className="section-subheadline">We&apos;re here to help you succeed</p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
