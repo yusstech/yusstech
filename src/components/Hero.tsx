@@ -17,11 +17,8 @@ export default function Hero() {
             
                 Schedule Your Strategy Call</a>
               
-              <button className="cta-primary">
-              
-              </button>
               <span className="text-sm font-medium text-accent">
-                Only 5 spots available this week
+                We are your product development partner from start to finish
               </span>
             </div>
           </div>
